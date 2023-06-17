@@ -49,6 +49,7 @@ public class TicTacToe {
         Scanner sc = new Scanner(System.in);
         while (!gameover) {
             printBoard(board);
+	    System.out.print("Enter Row and then column");
             System.out.println("Player " + player + " Enter: ");
             int row = sc.nextInt();
             int col = sc.nextInt();
